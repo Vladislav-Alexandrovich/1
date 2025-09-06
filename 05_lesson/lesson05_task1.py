@@ -10,8 +10,6 @@ driver = webdriver.Chrome(
 
 driver.maximize_window()
 
-driver.get("https://google.com")
-
 driver.get("http://uitestingplayground.com/classattr")
 
 button_locator = "button.btn-primary"
